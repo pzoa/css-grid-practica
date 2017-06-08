@@ -1,0 +1,36 @@
+body{
+	display: grid;
+	grid-template-columns:20% 60% 20%;
+	grid-template-rows: 100px 400px 200px;
+	grid-template-areas:
+		"header header header"
+		"nav article aside"
+		"footer footer footer";
+}
+
+header {
+	background: red;
+	grid-area: header;
+}
+
+nav {
+	background: yellow;
+	grid-area: nav;
+}
+
+article {
+	color: white;
+	background: black;
+	grid-area: article;
+}
+
+aside{
+	background: blue;
+	grid-area: aside;
+}
+
+footer {
+	background: gray;
+	grid-area: footer;
+}
+

@@ -1,0 +1,42 @@
+.container{
+	display: grid;
+	grid-template-columns: 25% 25% 50%;
+	grid-template-rows: repeat(3, 150px);
+	grid-row-gap: 10px;
+	grid-column-gap: 10px;
+}
+
+.a{
+	background: grey;
+	color: white;
+	grid-column: 1/3;
+	grid-row: 1/2;
+}
+
+.b{
+	background: grey;
+	color: white;
+	grid-column: 3/4;
+	grid-row: 1/2;
+}
+
+.c{
+	background: grey;
+	color: white;
+	grid-column: 1/2;
+	grid-row: 2/3;
+}
+
+.d{
+	background: grey;
+	color: white;
+	grid-column: 2/4;
+	grid-row: 2/3;
+}
+
+.e{
+	background: grey;
+	color: white;
+	grid-column: 1/4;
+	grid-row: 3/4;
+}
